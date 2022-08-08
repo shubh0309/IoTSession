@@ -1,0 +1,2415 @@
+{
+  "id": "62c680ce30c49e0007801788",
+  "modified": 1657176270,
+  "name": "device testing",
+  "dataDefinition": {
+    "id": "62c6803630c49e0007801786",
+    "modified": 1657176118,
+    "name": "device testing",
+    "schema": {
+      "metadata": {
+        "type": "json"
+      },
+      "type": "object",
+      "properties": {
+        "parent": {
+          "properties": {
+            "child": {
+              "type": "number",
+              "metadata": {
+                "type": "integer",
+                "position": "child",
+                "name": "child",
+                "description": ""
+              }
+            }
+          },
+          "type": "object",
+          "metadata": {
+            "position": "parent",
+            "description": ""
+          }
+        },
+        "name": {
+          "type": "string",
+          "metadata": {
+            "position": "name",
+            "name": "name",
+            "description": "name"
+          }
+        },
+        "temperature": {
+          "type": "number",
+          "metadata": {
+            "type": "integer",
+            "position": "temperature",
+            "name": "temp",
+            "description": "temperature"
+          }
+        }
+      },
+      "schemaKey": "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "timer": {
+    "type": "interval",
+    "metric": "seconds",
+    "value": 5
+  },
+  "ticksNumber": 0,
+  "isReplayLooped": false,
+  "devices": [
+    {
+      "id": "b1180b340754effc038636f6",
+      "modified": 1657176195,
+      "name": "DiSy_ozsdxqku",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_1"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "d6f80f800f7bae907ae95d34",
+      "modified": 1657176195,
+      "name": "DiSy_ohkdmkfp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_2"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "68853b60c5a292c79b45c20f",
+      "modified": 1657176195,
+      "name": "DiSy_tyeaavsi",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_3"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "510ec77aaa42733ea9c0060e",
+      "modified": 1657176195,
+      "name": "DiSy_ecpgofoo",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_4"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "1a7d47ad73888b78feef3adb",
+      "modified": 1657176195,
+      "name": "DiSy_teyeljho",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_5"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "87a3fdb122e0485d6fc0e55c",
+      "modified": 1657176195,
+      "name": "DiSy_vrxjeiah",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_6"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "075879f012cb61382a6e38ff",
+      "modified": 1657176195,
+      "name": "DiSy_igffjsmm",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_7"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "a2eaa84f58e47295babe16c3",
+      "modified": 1657176195,
+      "name": "DiSy_ecbpzeha",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_8"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "5f54337cbb04156b8b13757d",
+      "modified": 1657176195,
+      "name": "DiSy_aamcbpbg",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_9"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "d94135a57c728a405ce817b8",
+      "modified": 1657176195,
+      "name": "DiSy_fxihvswx",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_10"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "ad652e821f4adaa0d6696017",
+      "modified": 1657176195,
+      "name": "DiSy_udzpagjd",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_11"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0575fb76845ef2aa47279f27",
+      "modified": 1657176195,
+      "name": "DiSy_arddxfkh",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_12"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "e68f69eeb972491303d632da",
+      "modified": 1657176195,
+      "name": "DiSy_wixvtjxf",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_13"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "82a6ce49b80f51343af77c7b",
+      "modified": 1657176195,
+      "name": "DiSy_ejtozxgx",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_14"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "c9d455a8168279a9c6525d08",
+      "modified": 1657176195,
+      "name": "DiSy_ftqianth",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_15"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "2c611e496ee4b189d40bba55",
+      "modified": 1657176195,
+      "name": "DiSy_vmocufkv",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_16"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "eabd6995cbc13aec5d91f3ce",
+      "modified": 1657176195,
+      "name": "DiSy_jcdwoovv",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_17"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "1f844e6d1adccc796b13f5ba",
+      "modified": 1657176195,
+      "name": "DiSy_fsgfxyqm",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_18"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "7af43068b24c3be6895854c5",
+      "modified": 1657176195,
+      "name": "DiSy_etnfabqp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_19"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0e2223639bd458133d576e15",
+      "modified": 1657176195,
+      "name": "DiSy_pcpblckj",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_20"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "ea174e0f183975e26d22276f",
+      "modified": 1657176195,
+      "name": "DiSy_nrgnoumg",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_21"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "aa768c12cb5f1bb96a6a827d",
+      "modified": 1657176195,
+      "name": "DiSy_beeucuwl",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_22"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "631bffb3634afee48eb8f8df",
+      "modified": 1657176195,
+      "name": "DiSy_ghqitaov",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_23"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "151e9aab64d885163a6f3d06",
+      "modified": 1657176195,
+      "name": "DiSy_oeerbqun",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_24"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "fd2c0161cf181c5166dab881",
+      "modified": 1657176195,
+      "name": "DiSy_jcrhzclq",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_25"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "be9a72857ecf86a2aa4de776",
+      "modified": 1657176195,
+      "name": "DiSy_eeamwequ",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_26"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "99f2ee7a36b6f79d7f491f94",
+      "modified": 1657176195,
+      "name": "DiSy_sfrulhxk",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_27"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "366254214cdb3ad388fd75b1",
+      "modified": 1657176195,
+      "name": "DiSy_iphpebkc",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_28"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "3d0727fda3cde5d9827c1891",
+      "modified": 1657176195,
+      "name": "DiSy_xharqxrz",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_29"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "a55712090889239ff0fa4b45",
+      "modified": 1657176195,
+      "name": "DiSy_hmlxaihs",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_30"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "61d0fc04c1743988346a123d",
+      "modified": 1657176195,
+      "name": "DiSy_sherhhld",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_31"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "53635045875e9a40be265d8d",
+      "modified": 1657176195,
+      "name": "DiSy_yclbckxu",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_32"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "d5071b2aaa54161dbca0c42a",
+      "modified": 1657176195,
+      "name": "DiSy_cowecswg",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_33"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "3de490de874152932d4dd353",
+      "modified": 1657176195,
+      "name": "DiSy_zadyufzj",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_34"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "81b26066921e69fe9f8092bb",
+      "modified": 1657176195,
+      "name": "DiSy_eacmucpk",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_35"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "8ba364760d9485c5701e3c80",
+      "modified": 1657176195,
+      "name": "DiSy_mtohexut",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_36"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "6ee179bb2d7b0adf356fd42a",
+      "modified": 1657176195,
+      "name": "DiSy_wbtdnxsd",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_37"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "cabc34ecc5da1d7e0f9afb9c",
+      "modified": 1657176195,
+      "name": "DiSy_eqjytgip",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_38"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "b83ef13143e12f9705a21511",
+      "modified": 1657176195,
+      "name": "DiSy_sxkfksgt",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_39"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0a79f5ac250c2eee197a7643",
+      "modified": 1657176195,
+      "name": "DiSy_wbcohbre",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_40"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "57dd8dae6fa9751b73b6b2ee",
+      "modified": 1657176195,
+      "name": "DiSy_zlxazyhk",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_41"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "7bb24e2ad751de051cf7b77d",
+      "modified": 1657176195,
+      "name": "DiSy_meehsfiv",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_42"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "22d28483a5da46ffbf1447be",
+      "modified": 1657176195,
+      "name": "DiSy_kznqvuex",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_43"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "19710eb89326b9811cf1c5a8",
+      "modified": 1657176195,
+      "name": "DiSy_zaawswek",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_44"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "a063c8126cc56066eb65e129",
+      "modified": 1657176195,
+      "name": "DiSy_dbwurxbt",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_45"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "9b715ea6ffc91c657ec8c78a",
+      "modified": 1657176195,
+      "name": "DiSy_pfmndzfz",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_46"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "510a489acb84598ccbfa68dd",
+      "modified": 1657176195,
+      "name": "DiSy_xrylupea",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_47"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "4a459f80f8b21d6d021e4676",
+      "modified": 1657176195,
+      "name": "DiSy_shwfbtoh",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_48"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "3480cffa6b30bc524607dd8d",
+      "modified": 1657176195,
+      "name": "DiSy_dovglrak",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_49"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "91bcf4b25d93ebc0edc86001",
+      "modified": 1657176195,
+      "name": "DiSy_cwmqdjue",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_50"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "c066fc6c7e392397743737dc",
+      "modified": 1657176195,
+      "name": "DiSy_zorcfegt",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_51"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "222787626f3492c0b4509638",
+      "modified": 1657176195,
+      "name": "DiSy_sksgpyiz",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_52"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "e2247fcf4868514454afe821",
+      "modified": 1657176195,
+      "name": "DiSy_lemulsvy",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_53"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "49981d92d5d5e547b997205b",
+      "modified": 1657176195,
+      "name": "DiSy_xrretovp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_54"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "af0701599c7b16d72148f273",
+      "modified": 1657176195,
+      "name": "DiSy_agqptklj",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_55"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "c2fb38ec6128fdad8a988c93",
+      "modified": 1657176195,
+      "name": "DiSy_fasjcmtj",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_56"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "66c432dbb95f8da9e39d0b8c",
+      "modified": 1657176195,
+      "name": "DiSy_hutnzmmn",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_57"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "20a82c53fe13d6d70df8ba04",
+      "modified": 1657176195,
+      "name": "DiSy_ifqtlzva",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_58"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "03494e5257c7bbfc8dbdf716",
+      "modified": 1657176195,
+      "name": "DiSy_uvjkvopo",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_59"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "b2c2f0283d94a0820eb2cdbf",
+      "modified": 1657176195,
+      "name": "DiSy_wqhtpslq",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_60"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "5d88e0a1a755274962ffedd1",
+      "modified": 1657176195,
+      "name": "DiSy_hjbmfepb",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_61"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "a1a379035b38646f055909b8",
+      "modified": 1657176195,
+      "name": "DiSy_vyqmbeok",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_62"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "bb37d43d8f6bf06dfa995573",
+      "modified": 1657176195,
+      "name": "DiSy_vrccjvlt",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_63"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "358345c03e4d2017218fa30a",
+      "modified": 1657176195,
+      "name": "DiSy_yagcjrfr",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_64"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "4d4cc1c35e1d27a1d7f030ff",
+      "modified": 1657176195,
+      "name": "DiSy_bskeavta",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_65"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "df05a11826d452a34d3041bc",
+      "modified": 1657176195,
+      "name": "DiSy_kgksjjtf",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_66"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "ac6bbcb09fec3919612f413f",
+      "modified": 1657176195,
+      "name": "DiSy_sgrdbmgl",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_67"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "381abc08148abc39393a8b87",
+      "modified": 1657176195,
+      "name": "DiSy_abralijj",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_68"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "40656469da6849affea1c5ab",
+      "modified": 1657176195,
+      "name": "DiSy_qxfpjqla",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_69"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "4f7b4def7781d6f9bec3f5be",
+      "modified": 1657176195,
+      "name": "DiSy_dqyjyjcp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_70"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "71d264a3043f8c6c3af81367",
+      "modified": 1657176195,
+      "name": "DiSy_vzoujlsc",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_71"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "870fe07027e5974cdac77d39",
+      "modified": 1657176195,
+      "name": "DiSy_squivkwr",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_72"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "238c80aeb39457d9cab01628",
+      "modified": 1657176195,
+      "name": "DiSy_ipgbzsth",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_73"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "2e8d8e871c5f5e847af8fc11",
+      "modified": 1657176195,
+      "name": "DiSy_cdqyzmrp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_74"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "cd4ca273ac27311e780d62ce",
+      "modified": 1657176195,
+      "name": "DiSy_trlpzmpa",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_75"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "3700de94d348513ed7cf0c0c",
+      "modified": 1657176195,
+      "name": "DiSy_lesgtudp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_76"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "fad55464654eae14d9f4e3bb",
+      "modified": 1657176195,
+      "name": "DiSy_atjzxyej",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_77"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "aeb728b826fc8c476ac071fc",
+      "modified": 1657176195,
+      "name": "DiSy_ydiatkts",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_78"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "c140c221c55b6507df5f5dea",
+      "modified": 1657176195,
+      "name": "DiSy_rrdlnhvc",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_79"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "de2bd62925318fbc4a55eadc",
+      "modified": 1657176195,
+      "name": "DiSy_vcnyjlle",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_80"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "58933191ba00e4f34f0791fc",
+      "modified": 1657176195,
+      "name": "DiSy_syaxnlzf",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_81"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "555d9e02c9352d24997b5796",
+      "modified": 1657176195,
+      "name": "DiSy_httyaxqd",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_82"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "1dd611ca1e00aff8d39d1d43",
+      "modified": 1657176195,
+      "name": "DiSy_bqhkewec",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_83"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "0c2e9632d4b3627f2c08f3bc",
+      "modified": 1657176195,
+      "name": "DiSy_xpdxznak",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_84"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "c67add3dc9eb1f3894db8378",
+      "modified": 1657176195,
+      "name": "DiSy_pnwqebfr",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_85"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "7709c129a6f7bab2590e1b99",
+      "modified": 1657176195,
+      "name": "DiSy_vqgcawxr",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_86"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "4c79b4b01d815505427cb6f5",
+      "modified": 1657176195,
+      "name": "DiSy_pehpqbtf",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_87"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "29cf899ff8a28fe95348fa5b",
+      "modified": 1657176195,
+      "name": "DiSy_uunnbqvc",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_88"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "9f146e9be4366c254ec1a6a4",
+      "modified": 1657176195,
+      "name": "DiSy_sywdhppt",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_89"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "70fa309c55405f52cb312e53",
+      "modified": 1657176195,
+      "name": "DiSy_ianbrwbo",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_90"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "930bfefb08006c0552951ef2",
+      "modified": 1657176195,
+      "name": "DiSy_wvcpbami",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_91"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "20f0e88488ce37d010f6d0e6",
+      "modified": 1657176195,
+      "name": "DiSy_sqsbedjv",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_92"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "1fdaafc2aa2664f83d2a13be",
+      "modified": 1657176195,
+      "name": "DiSy_xmseqbcu",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_93"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "6a5e241b2c8e7a7d38a5cc7f",
+      "modified": 1657176195,
+      "name": "DiSy_seqlvias",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_94"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "3b12836c4c240f5aba430677",
+      "modified": 1657176195,
+      "name": "DiSy_kldtacko",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_95"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "476ced816b795746da0c320b",
+      "modified": 1657176195,
+      "name": "DiSy_vxckzost",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_96"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "a3de9289d2e8d3543c01366b",
+      "modified": 1657176195,
+      "name": "DiSy_twbtivsp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_97"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "e58c3e0affbc35fbb1b6b973",
+      "modified": 1657176195,
+      "name": "DiSy_qaablxpp",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_98"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "id": "da0267266ecb2ab4424bb416",
+      "modified": 1657176195,
+      "name": "DiSy_dvsyrhgf",
+      "targetSystems": [
+        {
+          "id": "62c68043886aac61e17e3cba",
+          "modified": 0,
+          "name": "device testing",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "humidity",
+          "value": "device_99"
+        },
+        {
+          "name": "power",
+          "value": 21
+        }
+      ]
+    }
+  ],
+  "deviceInjector": {
+    "rule": "round_robin"
+  },
+  "generator": {
+    "type": "schema_based",
+    "schema": {
+      "metadata": {
+        "type": "json"
+      },
+      "type": "object",
+      "properties": {
+        "parent": {
+          "rule": {
+            "type": "device_property",
+            "propertyName": "power"
+          },
+          "type": "object",
+          "metadata": {
+            "position": "parent",
+            "description": ""
+          },
+          "properties": {
+            "child": {
+              "type": "number",
+              "metadata": {
+                "type": "integer",
+                "position": "child",
+                "name": "child",
+                "description": ""
+              },
+              "rule": {
+                "type": "random_integer",
+                "min": 0,
+                "max": 100
+              }
+            }
+          }
+        },
+        "name": {
+          "type": "string",
+          "metadata": {
+            "position": "name",
+            "name": "name",
+            "description": "name"
+          },
+          "rule": {
+            "type": "device_property",
+            "propertyName": "humidity"
+          }
+        },
+        "temperature": {
+          "type": "number",
+          "metadata": {
+            "type": "integer",
+            "position": "temperature",
+            "name": "temp",
+            "description": "temperature"
+          },
+          "rule": {
+            "type": "random_integer",
+            "min": 0,
+            "max": 100
+          }
+        }
+      },
+      "schemaKey": "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "targetSystem": {
+    "id": "5a4223da85b4b900050e7474",
+    "modified": 1656907068,
+    "name": "Dummy",
+    "type": "dummy"
+  },
+  "replayLooped": false
+}
