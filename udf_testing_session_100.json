@@ -1,0 +1,2451 @@
+{
+  "id": "62f1080a30c49e0001d74a4e",
+  "modified": 1660021788,
+  "name": "Test",
+  "dataDefinition": {
+    "id": "62c28b4530c49e0007219e6e",
+    "modified": 1660015573,
+    "name": "DDUDFManual",
+    "schema": {
+      "metadata": {
+        "type": "json"
+      },
+      "type": "object",
+      "properties": {
+        "Context": {
+          "properties": {
+            "UDFVersion": {
+              "type": "string",
+              "metadata": {
+                "position": "UDFVersion",
+                "name": "UDFVersion",
+                "description": ""
+              }
+            },
+            "Type": {
+              "type": "string",
+              "metadata": {
+                "position": "Type",
+                "name": "Type",
+                "description": ""
+              }
+            },
+            "StartDateTime": {
+              "type": "string",
+              "metadata": {
+                "position": "StartDateTime",
+                "name": "StartDateTime",
+                "description": "StartDateTime"
+              }
+            },
+            "DATA": {
+              "items": [
+                {
+                  "properties": {
+                    "UniqueID": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UniqueID",
+                        "name": "UniqueID",
+                        "description": ""
+                      }
+                    }
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "1",
+                    "description": ""
+                  }
+                }
+              ],
+              "type": "array",
+              "metadata": {
+                "position": "DATA",
+                "description": ""
+              }
+            },
+            "Device": {
+              "type": "string",
+              "metadata": {
+                "position": "Device",
+                "name": "Device",
+                "description": "Device"
+              }
+            }
+          },
+          "type": "object",
+          "metadata": {
+            "position": "Context",
+            "description": ""
+          }
+        },
+        "FieldSensorData": {
+          "properties": {
+            "DATA": {
+              "items": [
+                {
+                  "properties": {
+                    "UniqueID": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UniqueID",
+                        "name": "UniqueID",
+                        "description": ""
+                      }
+                    },
+                    "SensorType": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "SensorType",
+                        "name": "SensorType",
+                        "description": ""
+                      }
+                    },
+                    "SensorChannel": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "SensorChannel",
+                        "name": "SensorChannel",
+                        "description": ""
+                      }
+                    },
+                    "Mode": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Mode",
+                        "name": "Mode",
+                        "description": ""
+                      }
+                    },
+                    "DateTimeOffset": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "DateTimeOffset",
+                        "name": "DateTimeOffset",
+                        "description": ""
+                      }
+                    },
+                    "Unit": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Unit",
+                        "name": "Unit",
+                        "description": ""
+                      }
+                    },
+                    "Sensor": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Sensor",
+                        "name": "Sensor",
+                        "description": ""
+                      }
+                    },
+                    "UCL": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UCL",
+                        "name": "UCL",
+                        "description": ""
+                      }
+                    },
+                    "Name": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Name",
+                        "name": "Name",
+                        "description": ""
+                      }
+                    },
+                    "Result": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Result",
+                        "name": "Result",
+                        "description": ""
+                      }
+                    },
+                    "Fail": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Fail",
+                        "name": "Fail",
+                        "description": ""
+                      }
+                    }
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "1",
+                    "description": ""
+                  }
+                },
+                {
+                  "properties": {
+                    "Mode": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Mode",
+                        "name": "Mode",
+                        "description": ""
+                      }
+                    }
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "2",
+                    "description": ""
+                  }
+                }
+              ],
+              "type": "array",
+              "metadata": {
+                "position": "DATA",
+                "description": ""
+              }
+            }
+          },
+          "type": "object",
+          "metadata": {
+            "position": "FieldSensorData",
+            "description": ""
+          }
+        },
+        "Time": {
+          "type": "string",
+          "metadata": {
+            "position": "Time",
+            "name": "Time",
+            "description": ""
+          }
+        }
+      },
+      "schemaKey": "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "timer": {
+    "type": "interval",
+    "metric": "seconds",
+    "value": 1
+  },
+  "ticksNumber": 0,
+  "isReplayLooped": false,
+  "devices": [
+    {
+      "id": "15bf2c9f2a4d5375cf242136",
+      "modified": 1659963449,
+      "name": "DiSy_swtdyhdj",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_1"
+        }
+      ]
+    },
+    {
+      "id": "fbf68033cfefb998140cb4a6",
+      "modified": 1659963449,
+      "name": "DiSy_rnskzyub",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_2"
+        }
+      ]
+    },
+    {
+      "id": "fa0080e4dfaf7651e7b4e242",
+      "modified": 1659963449,
+      "name": "DiSy_akpruuxm",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_3"
+        }
+      ]
+    },
+    {
+      "id": "4bdf355dd0da2b863ae051c5",
+      "modified": 1659963449,
+      "name": "DiSy_qdkniqqr",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_4"
+        }
+      ]
+    },
+    {
+      "id": "895b84825ed78441e49bebcb",
+      "modified": 1659963449,
+      "name": "DiSy_cdmbrpve",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_5"
+        }
+      ]
+    },
+    {
+      "id": "93134c9eacb48eab8979b6bf",
+      "modified": 1659963449,
+      "name": "DiSy_jecpbpqo",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_6"
+        }
+      ]
+    },
+    {
+      "id": "fb5c0ab105a3c30d890e2ea9",
+      "modified": 1659963449,
+      "name": "DiSy_bkhkacdu",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_7"
+        }
+      ]
+    },
+    {
+      "id": "c5a17c6748a19a0d738d2436",
+      "modified": 1659963449,
+      "name": "DiSy_tntntnny",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_8"
+        }
+      ]
+    },
+    {
+      "id": "fe262cf3ac763f67bb8aa773",
+      "modified": 1659963449,
+      "name": "DiSy_bgovvbju",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_9"
+        }
+      ]
+    },
+    {
+      "id": "a9456cb274b7bf1a4a5d81ad",
+      "modified": 1659963449,
+      "name": "DiSy_npgjgcjc",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_10"
+        }
+      ]
+    },
+    {
+      "id": "4797a0a6ed4b28685d19513c",
+      "modified": 1659963449,
+      "name": "DiSy_bbobivri",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_11"
+        }
+      ]
+    },
+    {
+      "id": "123fca68776388e50392bf5f",
+      "modified": 1659963449,
+      "name": "DiSy_psaixywm",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_12"
+        }
+      ]
+    },
+    {
+      "id": "b8057f4b5bacab68a8362093",
+      "modified": 1659963449,
+      "name": "DiSy_hzorucbw",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_13"
+        }
+      ]
+    },
+    {
+      "id": "60f80f957063dd518aaf0ff3",
+      "modified": 1659963449,
+      "name": "DiSy_huycwoqx",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_14"
+        }
+      ]
+    },
+    {
+      "id": "5ee4f3092c6d8f88f39b6edd",
+      "modified": 1659963449,
+      "name": "DiSy_ywwxhxue",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_15"
+        }
+      ]
+    },
+    {
+      "id": "9ae900fce11c4afe6bc9cc8c",
+      "modified": 1659963449,
+      "name": "DiSy_mkicejag",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_16"
+        }
+      ]
+    },
+    {
+      "id": "93c5356d3c7b79e2eba2c19a",
+      "modified": 1659963449,
+      "name": "DiSy_fhwisxff",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_17"
+        }
+      ]
+    },
+    {
+      "id": "e4285689e91807a8b5282e57",
+      "modified": 1659963449,
+      "name": "DiSy_fmpxairl",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_18"
+        }
+      ]
+    },
+    {
+      "id": "4a2bf2d3e7c66a57e1ad67bb",
+      "modified": 1659963449,
+      "name": "DiSy_tnxkbhlz",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_19"
+        }
+      ]
+    },
+    {
+      "id": "2e5a92a633cfafa518f2fe8f",
+      "modified": 1659963449,
+      "name": "DiSy_mubkpgkw",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_20"
+        }
+      ]
+    },
+    {
+      "id": "6ab74afd43b34fe1795eb872",
+      "modified": 1659963449,
+      "name": "DiSy_davaqzch",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_21"
+        }
+      ]
+    },
+    {
+      "id": "3f4180bd15eac1ec03b1ec8d",
+      "modified": 1659963449,
+      "name": "DiSy_tzqtflba",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_22"
+        }
+      ]
+    },
+    {
+      "id": "c5b45b34d4a242a34468d55b",
+      "modified": 1659963449,
+      "name": "DiSy_ubgdnscg",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_23"
+        }
+      ]
+    },
+    {
+      "id": "846e3da4345443229d35fb3f",
+      "modified": 1659963449,
+      "name": "DiSy_cafamwnm",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_24"
+        }
+      ]
+    },
+    {
+      "id": "c5a5658009cc5945ab578783",
+      "modified": 1659963449,
+      "name": "DiSy_tjclybne",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_25"
+        }
+      ]
+    },
+    {
+      "id": "d792bef965f08be306cae963",
+      "modified": 1659963449,
+      "name": "DiSy_hwmjhcna",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_26"
+        }
+      ]
+    },
+    {
+      "id": "3b8b1b648e8794eef8762e0b",
+      "modified": 1659963449,
+      "name": "DiSy_xhggyaww",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_27"
+        }
+      ]
+    },
+    {
+      "id": "065c04afb5c16f12df01bd6c",
+      "modified": 1659963449,
+      "name": "DiSy_kwtlwjnx",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_28"
+        }
+      ]
+    },
+    {
+      "id": "e45d4a45b3dd2a811322d16c",
+      "modified": 1659963449,
+      "name": "DiSy_bwubltvm",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_29"
+        }
+      ]
+    },
+    {
+      "id": "b00357698de813b1a49602af",
+      "modified": 1659963449,
+      "name": "DiSy_hkvmiomo",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_30"
+        }
+      ]
+    },
+    {
+      "id": "64e376882bdb4ea554146551",
+      "modified": 1659963449,
+      "name": "DiSy_hoxridoe",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_31"
+        }
+      ]
+    },
+    {
+      "id": "73935a6e8cadf2f299568bd6",
+      "modified": 1659963449,
+      "name": "DiSy_rfxlvqnw",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_32"
+        }
+      ]
+    },
+    {
+      "id": "a54ebb6331f4b14672275b8c",
+      "modified": 1659963449,
+      "name": "DiSy_bsilxtdn",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_33"
+        }
+      ]
+    },
+    {
+      "id": "5507437e7f8f038dc5ea7f34",
+      "modified": 1659963449,
+      "name": "DiSy_swwzremx",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_34"
+        }
+      ]
+    },
+    {
+      "id": "98ab4abdfd1400a59a2a159d",
+      "modified": 1659963449,
+      "name": "DiSy_disbidpk",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_35"
+        }
+      ]
+    },
+    {
+      "id": "e2b956e5bf00d041b52254a1",
+      "modified": 1659963449,
+      "name": "DiSy_mbvfzgmq",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_36"
+        }
+      ]
+    },
+    {
+      "id": "7f7e40349e2c5d7aea460961",
+      "modified": 1659963449,
+      "name": "DiSy_igilmyqs",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_37"
+        }
+      ]
+    },
+    {
+      "id": "eacc0c979f555e83fb486dab",
+      "modified": 1659963449,
+      "name": "DiSy_ocpsrifn",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_38"
+        }
+      ]
+    },
+    {
+      "id": "216a32817cd9e52ba41b00c0",
+      "modified": 1659963449,
+      "name": "DiSy_bwkmbsrw",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_39"
+        }
+      ]
+    },
+    {
+      "id": "cb34f5d1d61193316c3d5c9e",
+      "modified": 1659963449,
+      "name": "DiSy_dbindtuq",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_40"
+        }
+      ]
+    },
+    {
+      "id": "38d781ab9698d6f720e6500e",
+      "modified": 1659963449,
+      "name": "DiSy_fhoehpfh",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_41"
+        }
+      ]
+    },
+    {
+      "id": "42bdbeb24e06d3ea6810dba0",
+      "modified": 1659963449,
+      "name": "DiSy_aumhklle",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_42"
+        }
+      ]
+    },
+    {
+      "id": "4755135196491b035d74302a",
+      "modified": 1659963449,
+      "name": "DiSy_mmxatrfc",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_43"
+        }
+      ]
+    },
+    {
+      "id": "5feb5ba82b7992f0743a0278",
+      "modified": 1659963449,
+      "name": "DiSy_apkvmnll",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_44"
+        }
+      ]
+    },
+    {
+      "id": "b17501ea9d43ba163699e92d",
+      "modified": 1659963449,
+      "name": "DiSy_vocigguc",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_45"
+        }
+      ]
+    },
+    {
+      "id": "e14738b05ef23540a995f963",
+      "modified": 1659963449,
+      "name": "DiSy_goosgnck",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_46"
+        }
+      ]
+    },
+    {
+      "id": "57d5290678e8f110933add47",
+      "modified": 1659963449,
+      "name": "DiSy_ifklyues",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_47"
+        }
+      ]
+    },
+    {
+      "id": "689eb3d6bc2a798aa726db45",
+      "modified": 1659963449,
+      "name": "DiSy_ebyvgncy",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_48"
+        }
+      ]
+    },
+    {
+      "id": "12a33131dd2de496a39b16de",
+      "modified": 1659963449,
+      "name": "DiSy_xhhsapwx",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_49"
+        }
+      ]
+    },
+    {
+      "id": "c85d55370acdbd8cc267939d",
+      "modified": 1659963449,
+      "name": "DiSy_pifxbngs",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_50"
+        }
+      ]
+    },
+    {
+      "id": "ef975531a9c50f89cff6fd10",
+      "modified": 1659963449,
+      "name": "DiSy_wotgywhi",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_51"
+        }
+      ]
+    },
+    {
+      "id": "4d21b0aeb1efef5fea5a3ba0",
+      "modified": 1659963449,
+      "name": "DiSy_jtvtsgdo",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_52"
+        }
+      ]
+    },
+    {
+      "id": "62d7a8fc08ec1ef8a1b81481",
+      "modified": 1659963449,
+      "name": "DiSy_npdavjvc",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_53"
+        }
+      ]
+    },
+    {
+      "id": "10da49f08fe09c4c016e0024",
+      "modified": 1659963449,
+      "name": "DiSy_qsyidxlb",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_54"
+        }
+      ]
+    },
+    {
+      "id": "ca2936a22192388612643cd4",
+      "modified": 1659963449,
+      "name": "DiSy_cmpjcdxa",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_55"
+        }
+      ]
+    },
+    {
+      "id": "1b184de2d774ce21335cb20a",
+      "modified": 1659963449,
+      "name": "DiSy_lezvotot",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_56"
+        }
+      ]
+    },
+    {
+      "id": "a3dce3ba8b06cd72bd8ac3de",
+      "modified": 1659963449,
+      "name": "DiSy_djxehiph",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_57"
+        }
+      ]
+    },
+    {
+      "id": "818237817068b6e344104d98",
+      "modified": 1659963449,
+      "name": "DiSy_pdeghfki",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_58"
+        }
+      ]
+    },
+    {
+      "id": "bd1f3ce9abf1bdbefa7aeee3",
+      "modified": 1659963449,
+      "name": "DiSy_jlebkrxg",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_59"
+        }
+      ]
+    },
+    {
+      "id": "457ae44533a479299caab99d",
+      "modified": 1659963449,
+      "name": "DiSy_tlsrfdqo",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_60"
+        }
+      ]
+    },
+    {
+      "id": "c0a005013f1b54c863cc39d2",
+      "modified": 1659963449,
+      "name": "DiSy_meeepfsu",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_61"
+        }
+      ]
+    },
+    {
+      "id": "5c2fc982fa4f1ecdcab5a1d4",
+      "modified": 1659963449,
+      "name": "DiSy_liqbvfjx",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_62"
+        }
+      ]
+    },
+    {
+      "id": "d8bac7df2b2db7f0634d401b",
+      "modified": 1659963449,
+      "name": "DiSy_dqcouszj",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_63"
+        }
+      ]
+    },
+    {
+      "id": "3f327056d730b7c102f903cd",
+      "modified": 1659963449,
+      "name": "DiSy_hqoawsql",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_64"
+        }
+      ]
+    },
+    {
+      "id": "8360609f4627c6c6c4aab412",
+      "modified": 1659963449,
+      "name": "DiSy_cleosbey",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_65"
+        }
+      ]
+    },
+    {
+      "id": "ff7a99ef48a5dfcb08d115bf",
+      "modified": 1659963449,
+      "name": "DiSy_jtcfhyvv",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_66"
+        }
+      ]
+    },
+    {
+      "id": "7407d4ee9320c04a35ad1cf8",
+      "modified": 1659963449,
+      "name": "DiSy_cfyyoqew",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_67"
+        }
+      ]
+    },
+    {
+      "id": "687ceb76d02a7c6935e498a6",
+      "modified": 1659963449,
+      "name": "DiSy_yglmvvyk",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_68"
+        }
+      ]
+    },
+    {
+      "id": "ab58b02a3eb55468e6aed25c",
+      "modified": 1659963449,
+      "name": "DiSy_svpbhagt",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_69"
+        }
+      ]
+    },
+    {
+      "id": "72425126a9752e2037453c65",
+      "modified": 1659963449,
+      "name": "DiSy_otffymgr",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_70"
+        }
+      ]
+    },
+    {
+      "id": "5c3ffe27d101c19ef680cf32",
+      "modified": 1659963449,
+      "name": "DiSy_yyvavvvo",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_71"
+        }
+      ]
+    },
+    {
+      "id": "d5a24a464ed3913b1b7def4e",
+      "modified": 1659963449,
+      "name": "DiSy_ddizsblk",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_72"
+        }
+      ]
+    },
+    {
+      "id": "84b001c94c0f457c8f35bbb6",
+      "modified": 1659963449,
+      "name": "DiSy_tnhrwpch",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_73"
+        }
+      ]
+    },
+    {
+      "id": "05464fde0be763eb43a202f4",
+      "modified": 1659963449,
+      "name": "DiSy_aoaekdji",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_74"
+        }
+      ]
+    },
+    {
+      "id": "870a88f27a5f5c6c2990aa83",
+      "modified": 1659963449,
+      "name": "DiSy_udwomgzb",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_75"
+        }
+      ]
+    },
+    {
+      "id": "d6f45120cad4436d6d12ff3c",
+      "modified": 1659963449,
+      "name": "DiSy_tpaeyoca",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_76"
+        }
+      ]
+    },
+    {
+      "id": "58bec2bd1b3081bb47335960",
+      "modified": 1659963449,
+      "name": "DiSy_dhpqiicz",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_77"
+        }
+      ]
+    },
+    {
+      "id": "dad06970f4b2d2524d3dff11",
+      "modified": 1659963449,
+      "name": "DiSy_nhaqwwde",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_78"
+        }
+      ]
+    },
+    {
+      "id": "6d55f9d7e92b8a03ddb39cb6",
+      "modified": 1659963449,
+      "name": "DiSy_qqgnxfmj",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_79"
+        }
+      ]
+    },
+    {
+      "id": "720d0245506e89dfde5c9b32",
+      "modified": 1659963449,
+      "name": "DiSy_mnqfghxs",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_80"
+        }
+      ]
+    },
+    {
+      "id": "df8295d71b98cdf6e7dce669",
+      "modified": 1659963449,
+      "name": "DiSy_uiphogrw",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_81"
+        }
+      ]
+    },
+    {
+      "id": "91557a8ae743866977aa7f62",
+      "modified": 1659963449,
+      "name": "DiSy_kakpmgwf",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_82"
+        }
+      ]
+    },
+    {
+      "id": "2bb1e5de7e98e6ea9905d9d9",
+      "modified": 1659963449,
+      "name": "DiSy_neiklnrg",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_83"
+        }
+      ]
+    },
+    {
+      "id": "6e5be8572ce9026b69579896",
+      "modified": 1659963449,
+      "name": "DiSy_qyrnjaog",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_84"
+        }
+      ]
+    },
+    {
+      "id": "1229b5eca35447804c941067",
+      "modified": 1659963449,
+      "name": "DiSy_qmhyapat",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_85"
+        }
+      ]
+    },
+    {
+      "id": "dd2a78950fc0592f36585791",
+      "modified": 1659963449,
+      "name": "DiSy_jzhjwvla",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_86"
+        }
+      ]
+    },
+    {
+      "id": "fd832180715eeb74c5a7a70b",
+      "modified": 1659963449,
+      "name": "DiSy_lvetqdfi",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_87"
+        }
+      ]
+    },
+    {
+      "id": "3c66ce26b22c61baf3ef10cc",
+      "modified": 1659963449,
+      "name": "DiSy_esoapydy",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_88"
+        }
+      ]
+    },
+    {
+      "id": "3505b506e6661db57ddc0b99",
+      "modified": 1659963449,
+      "name": "DiSy_bamtsmyu",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_89"
+        }
+      ]
+    },
+    {
+      "id": "71e9890503abae45f2ca97ef",
+      "modified": 1659963449,
+      "name": "DiSy_osjekcua",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_90"
+        }
+      ]
+    },
+    {
+      "id": "ace6cb47527f524851039cc6",
+      "modified": 1659963449,
+      "name": "DiSy_ikbedalz",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_91"
+        }
+      ]
+    },
+    {
+      "id": "b14e2696e40589b56f74f963",
+      "modified": 1659963449,
+      "name": "DiSy_owlsjgng",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_92"
+        }
+      ]
+    },
+    {
+      "id": "bbb33fb29cbc0357a12b9d1b",
+      "modified": 1659963449,
+      "name": "DiSy_dnoiwzcs",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_93"
+        }
+      ]
+    },
+    {
+      "id": "ea52095132daf6448ddf9f91",
+      "modified": 1659963449,
+      "name": "DiSy_yibbgttj",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_94"
+        }
+      ]
+    },
+    {
+      "id": "e288a1de9b36d91a89b261ec",
+      "modified": 1659963449,
+      "name": "DiSy_unwlvmte",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_95"
+        }
+      ]
+    },
+    {
+      "id": "e7712017f48e6aa450487d6a",
+      "modified": 1659963449,
+      "name": "DiSy_tzxeebla",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_96"
+        }
+      ]
+    },
+    {
+      "id": "2ebfc6741703f98ebac9d42b",
+      "modified": 1659963449,
+      "name": "DiSy_hzflewup",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_97"
+        }
+      ]
+    },
+    {
+      "id": "8845e142189abda3d5cca26a",
+      "modified": 1659963449,
+      "name": "DiSy_vivwauay",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_98"
+        }
+      ]
+    },
+    {
+      "id": "88dba78b52792ce66760d530",
+      "modified": 1659963449,
+      "name": "DiSy_ejvyqckk",
+      "targetSystems": [
+        {
+          "id": "62c2b5684e127a636e3b07ad",
+          "modified": 0,
+          "name": "UDFD4",
+          "type": "dummy"
+        }
+      ],
+      "properties": [
+        {
+          "name": "UniqueID",
+          "value": "device_99"
+        }
+      ]
+    }
+  ],
+  "deviceInjector": {
+    "rule": "round_robin"
+  },
+  "generator": {
+    "type": "schema_based",
+    "schema": {
+      "metadata": {
+        "type": "json"
+      },
+      "type": "object",
+      "properties": {
+        "Context": {
+          "rule": {
+            "type": "device_property",
+            "propertyName": "UniqueID"
+          },
+          "type": "object",
+          "metadata": {
+            "position": "Context",
+            "description": ""
+          },
+          "properties": {
+            "UDFVersion": {
+              "type": "string",
+              "metadata": {
+                "position": "UDFVersion",
+                "name": "UDFVersion",
+                "description": ""
+              },
+              "rule": {
+                "type": "literal_string",
+                "value": "1"
+              }
+            },
+            "Type": {
+              "type": "string",
+              "metadata": {
+                "position": "Type",
+                "name": "Type",
+                "description": ""
+              },
+              "rule": {
+                "type": "literal_string",
+                "value": "Temp"
+              }
+            },
+            "StartDateTime": {
+              "type": "string",
+              "metadata": {
+                "position": "StartDateTime",
+                "name": "StartDateTime",
+                "description": "StartDateTime"
+              },
+              "rule": {
+                "type": "literal_string",
+                "value": "23.09.2021"
+              }
+            },
+            "DATA": {
+              "rule": {
+                "type": "device_property",
+                "propertyName": "UniqueID"
+              },
+              "type": "array",
+              "metadata": {
+                "position": "DATA",
+                "description": ""
+              },
+              "items": [
+                {
+                  "rule": {
+                    "type": "device_property",
+                    "propertyName": "UniqueID"
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "1",
+                    "description": ""
+                  },
+                  "properties": {
+                    "UniqueID": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UniqueID",
+                        "name": "UniqueID",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "device_property",
+                        "propertyName": "UniqueID"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "Device": {
+              "type": "string",
+              "metadata": {
+                "position": "Device",
+                "name": "Device",
+                "description": "Device"
+              },
+              "rule": {
+                "type": "device_property",
+                "propertyName": "UniqueID"
+              }
+            }
+          }
+        },
+        "FieldSensorData": {
+          "rule": {
+            "type": "device_property",
+            "propertyName": "UniqueID"
+          },
+          "type": "object",
+          "metadata": {
+            "position": "FieldSensorData",
+            "description": ""
+          },
+          "properties": {
+            "DATA": {
+              "rule": {
+                "type": "device_property",
+                "propertyName": "UniqueID"
+              },
+              "type": "array",
+              "metadata": {
+                "position": "DATA",
+                "description": ""
+              },
+              "items": [
+                {
+                  "rule": {
+                    "type": "device_property",
+                    "propertyName": "UniqueID"
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "1",
+                    "description": ""
+                  },
+                  "properties": {
+                    "UniqueID": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UniqueID",
+                        "name": "UniqueID",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "1"
+                      }
+                    },
+                    "SensorType": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "SensorType",
+                        "name": "SensorType",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "Temp"
+                      }
+                    },
+                    "SensorChannel": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "SensorChannel",
+                        "name": "SensorChannel",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "CORETS0"
+                      }
+                    },
+                    "Mode": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Mode",
+                        "name": "Mode",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "1"
+                      }
+                    },
+                    "DateTimeOffset": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "DateTimeOffset",
+                        "name": "DateTimeOffset",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "1000"
+                      }
+                    },
+                    "Unit": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Unit",
+                        "name": "Unit",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "degC"
+                      }
+                    },
+                    "Sensor": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Sensor",
+                        "name": "Sensor",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "Tmon"
+                      }
+                    },
+                    "UCL": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "UCL",
+                        "name": "UCL",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "65"
+                      }
+                    },
+                    "Name": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Name",
+                        "name": "Name",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "TempS"
+                      }
+                    },
+                    "Result": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Result",
+                        "name": "Result",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "custom_function",
+                        "function": "\n/**\n * \n * Please, note the following information:\n * - to print information to docker console use \"print\" (console.log is not available)\n * - \"momentjs\" and \"lodash\" libraries are supported and available in global scope\n * \n * @param  {object} ruleState may be used to store information between iterations\n * @param  {object} sessionState may be used to store information between rules\n * @param  {string} deviceName device name\n * @return {string} value that will be populated to specified property\n */\nfunction custom(ruleState, sessionState, deviceName) { \n    var result=\"\";\n     result+=parseFloat((Math.random() * (80.9 - 20.8 + 1) + 20.8).toString()).toFixed(2);\n    return result; \n\n}\n"
+                      }
+                    },
+                    "Fail": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Fail",
+                        "name": "Fail",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "1"
+                      }
+                    }
+                  }
+                },
+                {
+                  "rule": {
+                    "type": "device_property",
+                    "propertyName": "UniqueID"
+                  },
+                  "type": "object",
+                  "metadata": {
+                    "position": "2",
+                    "description": ""
+                  },
+                  "properties": {
+                    "Mode": {
+                      "type": "string",
+                      "metadata": {
+                        "position": "Mode",
+                        "name": "Mode",
+                        "description": ""
+                      },
+                      "rule": {
+                        "type": "literal_string",
+                        "value": "Channel1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Time": {
+          "type": "string",
+          "metadata": {
+            "position": "Time",
+            "name": "Time",
+            "description": ""
+          },
+          "rule": {
+            "type": "custom_function",
+            "function": "\n/**\n * \n * Please, note the following information:\n * - to print information to docker console use \"print\" (console.log is not available)\n * - \"momentjs\" and \"lodash\" libraries are supported and available in global scope\n * \n * @param  {object} ruleState may be used to store information between iterations\n * @param  {object} sessionState may be used to store information between rules\n * @param  {string} deviceName device name\n * @return {string} value that will be populated to specified property\n */\nfunction custom(ruleState, sessionState, deviceName) { \n  var CurrentDate = moment().format();\n    return CurrentDate;\n}\n"
+          }
+        }
+      },
+      "schemaKey": "http://json-schema.org/draft-04/schema#"
+    }
+  },
+  "targetSystem" : {
+    "id" : "62ecea41c9252c1de112f37f",
+    "modified" : 1659952878,
+    "name" : "rr",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer Aiv6tsBt-MxwDQawPTjfl4JFNTgHHRmnKs7DfACp70Q.ClvNSgumBqWiyuUN2OxUKhK0_16JhGdN_T5IfzvZIKw"
+    } ],
+    "type" : "rest_endpoint",
+    "url" : "https://api.infield.azure.synopsys.com/spaces/synopsys/data",
+    "method" : "post"
+  },
+  "replayLooped" : false
+}
